@@ -94,7 +94,12 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	      HAL_GPIO_WritePin(Led_Red_GPIO_Port, Led_Red_Pin,GPIO_PIN_SET);
+	  	  HAL_GPIO_WritePin(Led_Yel_GPIO_Port, Led_Yel_Pin,GPIO_PIN_RESET);
+	  	  HAL_Delay(2000);
+	  	  HAL_GPIO_WritePin(Led_Red_GPIO_Port, Led_Red_Pin,GPIO_PIN_RESET);
+	  	  HAL_GPIO_WritePin(Led_Yel_GPIO_Port, Led_Yel_Pin,GPIO_PIN_SET);
+	  	  HAL_Delay(2000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
