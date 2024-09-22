@@ -339,29 +339,28 @@ int main(void)
 	  	      }
 
 	  	      if(t>=7 && t<9){
-	  	          	HAL_GPIO_WritePin(Gre_1_GPIO_Port, Gre_1_Pin, GPIO_PIN_RESET);
-	  	          	HAL_GPIO_WritePin(Yel_1_GPIO_Port, Yel_1_Pin, GPIO_PIN_SET);
-	  	          	HAL_GPIO_WritePin(Red_1_GPIO_Port, Red_1_Pin, GPIO_PIN_RESET);
-	  	          	HAL_GPIO_WritePin(Gre_2_GPIO_Port, Gre_2_Pin, GPIO_PIN_RESET);
-	  	          	HAL_GPIO_WritePin(Yel_2_GPIO_Port, Yel_2_Pin, GPIO_PIN_RESET);
-	  	          	HAL_GPIO_WritePin(Red_2_GPIO_Port, Red_2_Pin, GPIO_PIN_SET);
+	  	        HAL_GPIO_WritePin(Gre_1_GPIO_Port, Gre_1_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Yel_1_GPIO_Port, Yel_1_Pin, GPIO_PIN_SET);
+	  	        HAL_GPIO_WritePin(Red_1_GPIO_Port, Red_1_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Gre_2_GPIO_Port, Gre_2_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Yel_2_GPIO_Port, Yel_2_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Red_2_GPIO_Port, Red_2_Pin, GPIO_PIN_SET);
 	  	      }
 	  	      if(t>=9 && t<16){
-	  	              	HAL_GPIO_WritePin(Gre_1_GPIO_Port, Gre_1_Pin, GPIO_PIN_RESET);
-	  	              	HAL_GPIO_WritePin(Yel_1_GPIO_Port, Yel_1_Pin, GPIO_PIN_RESET);
-	  	              	HAL_GPIO_WritePin(Red_1_GPIO_Port, Red_1_Pin, GPIO_PIN_SET);
-	  	              	HAL_GPIO_WritePin(Gre_2_GPIO_Port, Gre_2_Pin, GPIO_PIN_SET);
-	  	              	HAL_GPIO_WritePin(Yel_2_GPIO_Port, Yel_2_Pin, GPIO_PIN_RESET);
-	  	              	HAL_GPIO_WritePin(Red_2_GPIO_Port, Red_2_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Gre_1_GPIO_Port, Gre_1_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Yel_1_GPIO_Port, Yel_1_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Red_1_GPIO_Port, Red_1_Pin, GPIO_PIN_SET);
+	  	        HAL_GPIO_WritePin(Gre_2_GPIO_Port, Gre_2_Pin, GPIO_PIN_SET);
+	  	        HAL_GPIO_WritePin(Yel_2_GPIO_Port, Yel_2_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Red_2_GPIO_Port, Red_2_Pin, GPIO_PIN_RESET);
 	  	      }
 	  	      if(t>=16 && t<18){
-	  	              	HAL_GPIO_WritePin(Gre_1_GPIO_Port, Gre_1_Pin, GPIO_PIN_RESET);
-	  	              	HAL_GPIO_WritePin(Yel_1_GPIO_Port, Yel_1_Pin, GPIO_PIN_RESET);
-	  	              	HAL_GPIO_WritePin(Red_1_GPIO_Port, Red_1_Pin, GPIO_PIN_SET);
-	  	              	HAL_GPIO_WritePin(Gre_2_GPIO_Port, Gre_2_Pin, GPIO_PIN_RESET);
-	  	              	HAL_GPIO_WritePin(Yel_2_GPIO_Port, Yel_2_Pin, GPIO_PIN_SET);
-	  	              	HAL_GPIO_WritePin(Red_2_GPIO_Port, Red_2_Pin, GPIO_PIN_RESET);
-
+	  	        HAL_GPIO_WritePin(Gre_1_GPIO_Port, Gre_1_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Yel_1_GPIO_Port, Yel_1_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Red_1_GPIO_Port, Red_1_Pin, GPIO_PIN_SET);
+	  	        HAL_GPIO_WritePin(Gre_2_GPIO_Port, Gre_2_Pin, GPIO_PIN_RESET);
+	  	        HAL_GPIO_WritePin(Yel_2_GPIO_Port, Yel_2_Pin, GPIO_PIN_SET);
+	  	        HAL_GPIO_WritePin(Red_2_GPIO_Port, Red_2_Pin, GPIO_PIN_RESET);
 	  	        }
 
 	  	      HAL_Delay(1000);
